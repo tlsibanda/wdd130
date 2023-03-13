@@ -1,0 +1,56 @@
+nav {
+    background-color: steelblue;
+    padding: 10px;
+  }
+  /* This CSS rule names the <nav> element as the selected element to apply two style declarations.
+
+The background color will be the color "steelblue", which is a valid, named color.
+Padding, or area between the content and border is set to 10 pixels for readability.  
+*/
+  
+  nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+  }
+  /* This CSS rule names all the <a> elements that are children of the <nav> element and applies the following declarations:
+
+The foreground or font color will be white.
+The display will change from the default of inline to block.
+Each anchor tag will have padding of 20px; 
+*/
+  
+  h1 {
+    color: steelblue;
+  }
+  /* This CSS rule references the <h1> element as the selected element and applies the following declaration:
+
+The foreground, font color is set to steelblue.
+*/
+  
+img {
+    width: 150px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+  }
+    
+  /* This CSS rule references all the <img> elements as the selector and applies the following declarations:
+
+a set width with a height that will adjust dynamically to fit the image's aspect ratio.
+A border shortcut that names the width, type of border, and color of the border.
+Padding between the image and the border.
+A box shadow around the image border with zero offset and depth of 30px in gray. 
+*/
+
+
+p {
+    padding: 10px;
+  }
+
+  /*
+  This CSS rule names all <p> elements as the selector and applies the following declaration:
+
+Padding between the paragraph content and the border is set to 10 pixels.
+  */
